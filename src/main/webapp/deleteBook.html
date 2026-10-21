@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	body {
+	font-family: Arial, sans-serif;
+	margin: 30px;
+}
+
+input {
+	padding: 6px;
+	margin-bottom: 10px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #999;
+	padding: 8px 14px;
+}
+
+th {
+	background-color: #2980b9;
+	color: white;
+}
+</style>
+</head>
+<body>
+<h1>DELETE AN EXISTING BOOK</h1>
+<form action="DeleteBook" method="post" 
+		onSubmit="return confirm('Are you sure you want to delete the book?')">
+
+<input type="number" name="id" placeholder="Enter a book id" required><br>
+<input type="submit" value="Delete Book">
+
+</form>
+
+<br>
+	<p><a href="ViewBook">VIEW ALL BOOKS</a></p>
+<p><a href="Index.html">MAIN MENU</a></p>
+
+</body>
+</html>

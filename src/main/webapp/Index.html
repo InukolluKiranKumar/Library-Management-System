@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Library Management System</title>
+<style>
+	body {
+		font-family: Arial, sans-serif;
+		background-color: #f4f6f9;
+		margin: 0;
+	}
+
+	/* Heading at the top, centered */
+	h1 {
+		text-align: center;
+		color: #2c3e50;
+		margin-top: 30px;
+	}
+
+	/* The links sit in a row, centered both ways in the remaining page.
+	   height: 70vh = 70% of the screen height, so the row lands near the middle. */
+	.menu {
+		display: flex;
+		justify-content: center;   /* horizontal centering */
+		align-items: center;       /* vertical centering inside the 70vh box */
+		gap: 20px;                 /* space between the links */
+		height: 70vh;
+	}
+
+	/* Each link looks like a button */
+	.menu a {
+		padding: 14px 28px;
+		background-color: #2980b9;
+		color: white;
+		text-decoration: none;
+		border-radius: 6px;
+		font-size: 18px;
+	}
+
+	.menu a:hover {
+		background-color: #1f6391;
+	}
+</style>
+</head>
+<body>
+
+<h1>Library Management System<h1>
+<div class="menu">
+<p><a href="addBook.html">ADD A BOOK</a></p>
+<p><a href="ViewBook">VIEW ALL BOOKS</a></p>
+<p><a href="updatedBook.html">UPDATE A BOOK</a></p>
+<p><a href="deleteBook.html">DELETE A BOOK</a></p>
+</div>
+</body>
+</html>

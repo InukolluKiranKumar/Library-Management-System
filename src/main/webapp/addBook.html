@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	body {
+	font-family: Arial, sans-serif;
+	margin: 30px;
+}
+
+input {
+	padding: 6px;
+	margin-bottom: 10px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #999;
+	padding: 8px 14px;
+}
+
+th {
+	background-color: #2980b9;
+	color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>ADD BOOK</h2>
+
+<form action="addBook" method="post">
+
+	<input type="text" name="bname" required placeholder="Enter book name"/><br><br>
+	<input type="text" name="author" required placeholder="Enter author name"/><br><br>
+	<input type="text" name="btype" required placeholder="Enter book type"/><br><br>
+	<input type="number" name="price" required placeholder="Enter book price"/><br><br>
+
+	<input type="submit" value="Add Book"/>
+
+</form>
+
+<br>
+	<p><a href="ViewBook">VIEW ALL BOOKS</a></p>
+<p><a href="Index.html">MAIN MENU</a></p>
+</body>
+</html>
