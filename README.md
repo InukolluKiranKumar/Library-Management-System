@@ -9,7 +9,7 @@ Web application built with Servlets, JDBC, MySQL, HTML and CSS.
 - Delete a book
 
 ## Technologies
-- Java, Servlets (jakarta.servlet)
+- Java, Servlets
 - JDBC and MySQL
 - HTML and CSS
 - Apache Tomcat 11
